@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crop Recommendation</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Welcome to Crop Recommendation</h1>
+            <p>Find the best crops based on soil and weather conditions.</p>
+        </div>
+    </section>
+
+    <!-- Prediction Form -->
+    <section class="form-section">
+        <h2>Enter Soil and Weather Data</h2>
+        <form id="predictForm">
+            <label for="N">Nitrogen (N):</label>
+            <input type="number" id="N" required>
+
+            <label for="P">Phosphorus (P):</label>
+            <input type="number" id="P" required>
+
+            <label for="K">Potassium (K):</label>
+            <input type="number" id="K" required>
+
+            <label for="temperature">Temperature (°C):</label>
+            <input type="number" step="0.01" id="temperature" required>
+
+            <label for="humidity">Humidity (%):</label>
+            <input type="number" step="0.01" id="humidity" required>
+
+            <label for="ph">Soil pH:</label>
+            <input type="number" step="0.01" id="ph" required>
+
+            <label for="rainfall">Rainfall (mm):</label>
+            <input type="number" step="0.01" id="rainfall" required>
+
+            <button type="submit" class="cta-button">Get Recommendation</button>
+        </form>
+        <p id="result"></p>
+    </section>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
