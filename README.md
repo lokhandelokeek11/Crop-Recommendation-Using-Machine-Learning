@@ -53,7 +53,10 @@ streamlit run app.py
 ```
 
 ## Screenshots
-![1744466530147](https://github.com/user-attachments/assets/ab922e2c-d67b-408b-8b1d-1aeea9c34df1)
+![1744466532753](https://github.com/user-attachments/assets/19f0a54b-1d48-41f2-b1f0-207c994882b8)
+
+![1744466533619](https://github.com/user-attachments/assets/b3d3b6de-4c6e-40dd-923f-d7214c54a62c)
+
 
 ## 🧠 Key Features
 1. Supports real-time crop prediction based on user input
