@@ -51,6 +51,10 @@ cd Crop-Recommendation-Using-Machine-Learning
 pip install -r requirements.txt
 streamlit run app.py
 ```
+
+## Screenshots
+![1744466530147](https://github.com/user-attachments/assets/ab922e2c-d67b-408b-8b1d-1aeea9c34df1)
+
 ## 🧠 Key Features
 1. Supports real-time crop prediction based on user input
 2. User-friendly web interface built using Streamlit
