@@ -8,10 +8,10 @@ With the world facing challenges like climate change, limited natural resources,
 
 ## 🎯 Objectives
 
-- ✅ Recommend optimal crops for a given land based on pH, rainfall, humidity, temperature, and soil nutrients (N, P, K).
-- 🤖 Integrate multiple machine learning algorithms to enhance accuracy and reliability.
-- 👨‍🌾 Assist farmers in reducing crop selection risks and maximizing profits.
-- 🚜 Minimize agricultural losses by enabling data-informed crop planning.
+-  Recommend optimal crops for a given land based on pH, rainfall, humidity, temperature, and soil nutrients (N, P, K).
+-  Integrate multiple machine learning algorithms to enhance accuracy and reliability.
+-  Assist farmers in reducing crop selection risks and maximizing profits.
+-  Minimize agricultural losses by enabling data-informed crop planning.
 
 ## 🗃️ Dataset
 
